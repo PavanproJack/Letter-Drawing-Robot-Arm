@@ -11,11 +11,40 @@ Robotics Toolbox provides tools and algorithms for designing, simulating, and te
 Forward kinematics deals with computing the end-effector position with the provided joint angles. This problem can be solved in two ways
 1)	Homogeneous transformations between successive frames.
 2)	DH Notation approach.
+
 DH notation is the fastest way of computing the end-effector position.
 
-## DH Notation
+### DH Notation
 
 This approach attaches a coordinate frame at each joint and specifies four parameters known as DH parameters for each link. Using DH parameters, DH table is created to obtain the transformation matrix between coordinate frames.
+
+#### Preliminary Rules: 
+1.	You must have at least one more frame than there are joints - one frame must be on the end effector
+2.	All axes must be drawn either up, down, right, left or in the first or third quadrant.
+3.	The Z-axis must be the axis of revolution or the direction of motion
+4.	The X-axis must be perpendicular to the Z-axis of the frame before it.
+5.	The Y-axis must be drawn so the whole frame follows the right-hand rule.
+
+
+| Frame(i) | θ | 𝜶 | r | d |
+|-------|--------|---------|--------|---------|
+| 1 | θ1 | 90 | 0 | L1 |
+| 2 | θ2 | 0 | L2 | 0 |
+| 3 | θ3 | 0 | L3 | 0 |
+| 4 | θ4 + 90 | -90 | L4 | 0 |
+| 5 | θ5 | 0 | 0 | L5 |
+
+
+#### Workspace Plotting:
+A really important consideration with any robot is the set of all possible points that it can reach and we refer to this volume as workspace of the robot. It also shows the volume around the body where it cannot reach either. And this is due to mechanical limits on the range of motion of particular joints.Here we plot the workspace of the Lynx motion robot with all possible joint angles within their corresponding joint limits.
+
+Script for plotting workspace can be found in WorkSpace.m file.
+<img src = "WorkspaceXY.png" >
+<img src = "WorkspaceXZ.png" >
+<img src = "WorkspaceYZ.png" >
+<img src = "WorkspaceXYZ.png" >
+
+
 
 
 
