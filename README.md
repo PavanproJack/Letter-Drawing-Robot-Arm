@@ -76,8 +76,11 @@ Algorithm for planning the trajectory:
 3.	Now compute the inverse kinematics and find out the joint angles.
 4.	Use ‘mstraj’ or ‘jtraj’ get the way points and plot them together to form the trajectory.
 
+Script executing this algorithm can be found under PathPlanning.m file in this repository.
 
+<img src = "Straight Line Trajectory.png" width = "300">  <img src = "Free motion Trajectory.png" width = "300"> 
 
+<img src = "Obstacle Avoidance Trajectory.png" width = "300"> 
 
 
 
@@ -86,11 +89,15 @@ You can use the [editor on GitHub](https://github.com/PavanproJack/LetterDrawing
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Code Breakdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
+
+
+
+
 Syntax highlighted code block
 
 # Header 1123
@@ -106,13 +113,25 @@ Syntax highlighted code block
 **Bold** and _Italic_ and `Code` text
 
 [Link](url) and ![Image](src)
+
+
 ```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### References
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/PavanproJack/LetterDrawingRobotArm/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+@book{Corke17a,
+    Author = {Peter I. Corke},
+    Note = {ISBN 978-3-319-54413-7},
+    Edition = {Second},
+    Publisher = {Springer},
+    Title = {Robotics, Vision \& Control: Fundamental Algorithms in {MATLAB}},
+    Year = {2017}}
+    
+  J. Denavit and R. Hartenberg, “A Kinematic Notation for Lower‐Pair Mechanisms Based on Matrices” of Applied Mechanics, pp. 215‐221, 1955
+  
+  Anon. (n.d.). Robotics Toolbox. [Online]. Available at: http://petercorke.com/wordpress/toolboxes/robotics-toolbox [Accessed: 7 December 2017].
 
 ### Support or Contact
 
