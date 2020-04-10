@@ -39,10 +39,20 @@ This approach attaches a coordinate frame at each joint and specifies four param
 A really important consideration with any robot is the set of all possible points that it can reach and we refer to this volume as workspace of the robot. It also shows the volume around the body where it cannot reach either. And this is due to mechanical limits on the range of motion of particular joints.Here we plot the workspace of the Lynx motion robot with all possible joint angles within their corresponding joint limits. Script for plotting workspace can be found in WorkSpace.m file.
 
 
-<img src = "WorkspaceXY.png" width = "300">
-<img src = "Workspace XZ axes.png" width = "300">
-<img src = "Workspace YZ axes.png" width = "300">
-<img src = "WorkspaceXYZ axes.png" width = "300">
+<div class="row">
+  <div class="column">
+    <img src = "WorkspaceXY.png" width = "300">
+  </div>
+  <div class="column">
+    <img src = "Workspace XZ axes.png" width = "300">
+  </div>
+  <div class="column">
+    <img src = "Workspace YZ axes.png" width = "300">
+  </div>
+  <div class="column">
+    <img src = "WorkspaceXYZ axes.png" width = "300">
+  </div>
+</div>
 
 
 
