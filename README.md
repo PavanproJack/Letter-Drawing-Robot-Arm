@@ -40,9 +40,9 @@ A really important consideration with any robot is the set of all possible point
 
 Script for plotting workspace can be found in WorkSpace.m file.
 <img src = "WorkspaceXY.png" >
-<img src = "WorkspaceXZ.png" >
-<img src = "WorkspaceYZ.png" >
-<img src = "WorkspaceXYZ.png" >
+<img src = "Workspace XZ axes.png" >
+<img src = "Workspace YZ axes.png" >
+<img src = "WorkspaceXYZ axes.png" >
 
 
 
