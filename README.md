@@ -1,4 +1,23 @@
-## Welcome to GitHub Pages
+## Letter Drawing Lynx Motion Arm
+
+Lynxmotion arm is a 5R serial robot manipulator with 2 spherical and 3 revolute joints. This work presents the forward and inverse kinematics of the arm in implementing a task of drawing a letter "W".
+This was experimented in Matlab software using the Robotics Toolbox library. 
+
+Robotics Toolbox provides tools and algorithms for designing, simulating, and testing manipulators, mobile robots, and humanoid robots. 
+
+
+## Forward Kinematics
+
+Forward kinematics deals with computing the end-effector position with the provided joint angles. This problem can be solved in two ways
+1)	Homogeneous transformations between successive frames.
+2)	DH Notation approach.
+DH notation is the fastest way of computing the end-effector position.
+
+## DH Notation
+
+This approach attaches a coordinate frame at each joint and specifies four parameters known as DH parameters for each link. Using DH parameters, DH table is created to obtain the transformation matrix between coordinate frames.
+
+
 
 You can use the [editor on GitHub](https://github.com/PavanproJack/LetterDrawingRobotArm/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
