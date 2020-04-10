@@ -134,5 +134,4 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
   Anon. (n.d.). Robotics Toolbox. [Online]. Available at: http://petercorke.com/wordpress/toolboxes/robotics-toolbox [Accessed: 7 December 2017].
 
 ### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Happy to support through mail: kavvuripavankumar@gmail.com   .............
