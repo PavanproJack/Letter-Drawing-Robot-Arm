@@ -1,7 +1,7 @@
 # Letter Drawing Lynx Motion Arm
 
 Lynxmotion arm is a 5R serial robot manipulator with 2 spherical and 3 revolute joints. This work presents the forward and inverse kinematics of the arm in implementing a task of drawing a letter "W".
-This was experimented in Matlab software using the Robotics Toolbox library. 
+This was experimented in Matlab using the Robotics Toolbox. 
 
 Robotics Toolbox provides tools and algorithms for designing, simulating, and testing manipulators, mobile robots, and humanoid robots. 
 
