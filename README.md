@@ -99,6 +99,8 @@ Script executing this algorithm can be found under PathPlanning.m file in this r
   J. Denavit and R. Hartenberg, “A Kinematic Notation for Lower‐Pair Mechanisms Based on Matrices” of Applied Mechanics, pp. 215‐221, 1955
   
   Anon. (n.d.). Robotics Toolbox. [Online]. Available at: http://petercorke.com/wordpress/toolboxes/robotics-toolbox [Accessed: 7 December 2017].
+  
+  https://www.youtube.com/user/asodemann3/playlists
 
 ### Support or Contact
 Happy to support through mail: kavvuripavankumar@gmail.com   .............
